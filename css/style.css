@@ -1,0 +1,15 @@
+.navbar .nav-link {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 2px solid;
+}
