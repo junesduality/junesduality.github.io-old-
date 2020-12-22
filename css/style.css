@@ -60,10 +60,9 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-#memberlist .card {
-  border-radius: 0;
-}
-
 #memberlist a {
   color: #444;
+}
+#memberlist .card-header {
+  background: none;
 }
