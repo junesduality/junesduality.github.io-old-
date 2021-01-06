@@ -12,36 +12,37 @@
 
 <body>
   <!-- When the screen is 768px and smaller, the navbar will collapse -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a href="index.html" class="navbar-brand">CAPSULE NINE</a>
+      <a href="index.html" class="navbar-brand text-danger">CAPSULE NINE</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link">HOME</a>
+            <a href="index.html" class="nav-link text-danger">HOME</a>
           </li>
           <li class="nav-item">
-            <a href="https://capsule-nine.myshopify.com/" class="nav-link">STORE</a>
+            <a href="https://capsule-nine.myshopify.com/" target="_blank" class="nav-link">STORE</a>
           </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CONTENT</a>
             <div class="dropdown-menu">
-              <a href="https://soundcloud.com/discover" class="dropdown-item">MUSIC<i class="fas fa-music ml-2"></i></a>
-              <a href="#" class="dropdown-item">ART<i class="fas fa-paint-brush ml-2"></i></a>
-              <a href="https://www.twitch.tv/" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
-              <a href="https://www.youtube.com/" class="dropdown-item">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
+              <a href="members.html" class="dropdown-item">MEMBERS<i class="fas fa-user-friends ml-2"></i></a>
+              <a href="https://soundcloud.com/discover" target="_blank" class="dropdown-item">MUSIC<i class="fas fa-music ml-2"></i></a>
+              <a href="gallery.html" class="dropdown-item">ART<i class="fas fa-paint-brush ml-2"></i></a>
+              <a href="https://www.twitch.tv/" class="dropdown-item" target="_blank">TWITCH<i class="fab fa-twitch ml-2"></i></a>
+              <a href="https://www.youtube.com/" class="dropdown-item" target="_blank">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SOCIAL MEDIA</a>
             <div class="dropdown-menu">
-              <a href="https://twitter.com/home" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i></a>
-              <a href="https://www.instagram.com/" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
-              <a href="https://www.facebook.com/" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
-              <a href="https://discord.com/" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
+              <a href="https://twitter.com/home" class="dropdown-item" target="_blank">TWITTER<i class="fab fa-twitter ml-2"></i></i></a>
+              <a href="https://www.instagram.com/capsulenine/?hl=en" class="dropdown-item" target="_blank">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
+              <a href="https://www.facebook.com/" class="dropdown-item" target="_blank">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
+              <a href="https://discord.com/" class="dropdown-item" target="_blank">DISCORD<i class="fab fa-discord ml-2"></i></a>
             </div>
           </li>
           <li class="nav-item">
@@ -107,23 +108,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-4 text-center">
-          <i class="fas fa-music fa-3x mb-3"></i>
-          <h3>Music</h3>
+          <a href="https://soundcloud.com/discover" target="_blank"><i class="fas fa-music fa-3x mb-3 text-danger"></i></a>
+          <h3 class="text-danger">Music</h3>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
         </div>
         <div class="col-md-3 mb-4 text-center">
-          <i class="fas fa-gamepad fa-3x mb-3"></i>
-          <h3>Gaming</h3>
+          <a href="members.html"><i class="fas fa-gamepad fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Gaming</h3>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
         </div>
         <div class="col-md-3 mb-4 text-center">
-          <i class="fas fa-tshirt fa-3x mb-3"></i>
-          <h3>Fashion</h3>
+          <a href="https://capsule-nine.myshopify.com/" target="_blank"><i class="fas fa-tshirt fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Fashion</h3>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
         </div>
         <div class="col-md-3 mb-4 text-center">
-          <i class="fas fa-paint-brush fa-3x mb-3"></i>
-          <h3>Art</h3>
+          <a href="gallery.html"><i class="fas fa-paint-brush fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Art</h3>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
         </div>
       </div>
@@ -144,27 +145,27 @@
     </div>
   </section>
   
-<!-- Member List -->
+<!-- Member List/ BEE Bio -->
 <section id="memberlist" class="text-center">
   <div class="container py-4">
     <header>
-      <h1 class="display-3 py-3 font-italic">MEMBERS</h1>
+      <h1 class="display-3 py-3 font-italic text-danger border-bottom border-danger">WHO'S BEE?</h1>
     </header>
-    <div class="row">
-      <div class="col-md-3">
+    <div class="row mt-3">
+      <div class="col-md-5">
         <div id="accordian">
           <div class="card"></div>
           <img src="/img/polaroid-placeholder.jpg" alt="" class="card-img-top img-fluid rounded-lg">
           <div class="card-header">
             <h5>
               <a href="#collapse1" data-parent="#accordian" data-toggle="collapse" class="font-italic">
-                Placeholder Name<i class="fas fa-arrow-down ml-2"></i>
+                View More <i class="fas fa-arrow-down ml-2"></i>
               </a>
             </h5>
           </div>
-          <div class="card-body collapse" id="collapse1">
+          <div class="card-body collapse text-center" id="collapse1">
               <a href="#" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i> </a>
-              <a href="#" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
+              <a href="https://www.instagram.com/capsulenine/?hl=en" target="_blank" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
               <a href="#" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
               <a href="#" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
               <a href="#" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
@@ -172,68 +173,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div id="accordian">
-          <div class="card"></div>
-          <img src="/img/polaroid-placeholder.jpg" alt="" class="card-img-top img-fluid rounded-lg">
-          <div class="card-header">
-            <h5>
-              <a href="#collapse2" data-parent="#accordian" data-toggle="collapse" class="font-italic">
-                Placeholder Name<i class="fas fa-arrow-down ml-2"></i>
-              </a>
-            </h5>
-          </div>
-          <div class="card-body collapse" id="collapse2">
-              <a href="#" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i> </a>
-              <a href="#" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
-              <a href="#" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
-              <a href="#" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
-              <a href="#" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
-              <a href="#" class="dropdown-item">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div id="accordian">
-          <div class="card"></div>
-          <img src="/img/polaroid-placeholder.jpg" alt="" class="card-img-top img-fluid rounded-lg">
-          <div class="card-header">
-            <h5>
-              <a href="#collapse3" data-parent="#accordian" data-toggle="collapse" class="font-italic">
-                Placeholder Name<i class="fas fa-arrow-down ml-2"></i>
-              </a>
-            </h5>
-          </div>
-          <div class="card-body collapse" id="collapse3">
-              <a href="#" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i> </a>
-              <a href="#" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
-              <a href="#" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
-              <a href="#" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
-              <a href="#" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
-              <a href="#" class="dropdown-item">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div id="accordian">
-          <div class="card"></div>
-          <img src="/img/polaroid-placeholder.jpg" alt="" class="card-img-top img-fluid rounded-lg">
-          <div class="card-header">
-            <h5>
-              <a href="#collapse4" data-parent="#accordian" data-toggle="collapse" class="font-italic">
-                Placeholder Name<i class="fas fa-arrow-down ml-2"></i>
-              </a>
-            </h5>
-          </div>
-          <div class="card-body collapse" id="collapse4">
-              <a href="#" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i> </a>
-              <a href="#" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
-              <a href="#" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
-              <a href="#" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
-              <a href="#" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
-              <a href="#" class="dropdown-item">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
-          </div>
-        </div>
+      <div class="col-md-7 align-self-start">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dicta corporis ipsum minus unde hic quae amet totam ullam et veniam nemo voluptate voluptatibus, aliquam exercitationem ut labore. Dolorum aliquam, commodi accusantium earum natus totam recusandae sequi iure sint praesentium harum ipsam itaque ab fuga error saepe architecto corrupti. Veritatis?</p>
+        <a href="members.html" class="btn btn-danger text-white btn-lg my-3 px-3 width">View Full Member List</a>
       </div>
     </div>
   </div>
@@ -242,8 +184,8 @@
 <!-- Art Gallery -->
 <section id="gallery" class="py-5">
   <div class="container">
-    <h1 class="display-3 py-3 font-italic text-center">ART GALLERY</h1>
-    <p class="text-center font-italic">All art is solely owned by Capsule Nine</p>
+    <h1 class="display-3 py-3 font-italic text-center text-white border-bottom">ART GALLERY</h1>
+    <p class="text-center font-italic text-danger">All art is solely owned by Capsule Nine</p>
     <div class="row mb-4">
       <div class="col-md-4">
         <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
@@ -283,7 +225,7 @@
         </a>
       </div>
     </div>
-    <a href="#" class="btn btn-outline-danger">View Full Gallery</a>
+    <a href="gallery.html" class="btn btn-outline-danger text-white">View Full Gallery</a>
   </div>
 </section>
 
@@ -296,6 +238,7 @@
   <!--Footer-->
   <footer id="main-footer" class="text-center p-4">
     <div class="container">
+      <a id='scrollButton' href="#" class="btn btn-danger text-white d-md-none mb-3">Back To Top</a>
       <div class="row">
         <div class="col-md-6">
           <p class="font-italic">Copyright &copy;<span id="year"></span> Capsule Nine</p>
@@ -327,9 +270,16 @@
 
     // Lightbox Init
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                  event.preventDefault();
-                  $(this).ekkoLightbox();
-              });
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $(document).ready(function() {
+      $('#scrollButton').click(function() {
+        $('html').animate({scrollTop:0}, 800);
+      });
+    });
+    
   </script>
 </body>
 </html>
